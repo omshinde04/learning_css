@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .shadow {
+        text-shadow: 2px 2px 5px yellow;
+        font-size: 50px;
+        color: black;
+      }
+
+      /* image shoadow  */
+
+      .i_shadow {
+        box-shadow: 10px 10px 5px grey;
+        width: 300px;
+        height: 300px;
+      }
+
+      /* example of drop shodow  */
+
+      .d_shadow {
+        filter: drop-shadow(5px 5px 4px greenyellow);
+
+        height: 400px;
+        width: 300px;
+        
+
+
+
+        
+      }
+
+/*  */
+
+.m_shadow {
+    height : 400px ;
+    width :300px;
+    filter: drop-shadow(10px 10px 3px orange);
+}
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+  
+    <!-- <h1 class="shadow">Jayu</h1>   -->
+
+    <picture>
+      <img src="images/dhol.png" class="i_shadow" alt="dhol" />
+      <img src="images/dhol.png" class="d_shadow" alt="dhol" />
+
+
+        <img src="images/dhol.png" class="m_shadow" alt="dhol" />
+
+
+
+
+    </picture>
+  </body>
+</html>

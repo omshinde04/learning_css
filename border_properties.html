@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border Properties</title>
+
+    <style>
+      /* solid property */
+      .b_properties {
+        border: solid 5px blue;
+        height: 400px;
+        width: 300px;
+      }
+
+      /* dootted propety  */
+
+      .dotted_properties {
+        border: dotted 10px red;
+        height: 400px;
+        width: 300px;
+      }
+
+      /* .mix_properties{
+    height : 300px ;
+    width : 200px;
+    border:solid 5px green;
+    border-radius: 50px;
+    border-top: dotted 10px purple;
+    border-bottom: dashed 15px orange;
+    border-left: double 8px brown;
+    border-right: hotpink groove 12px;
+    borde
+} */
+
+      .mix_properties {
+        border: double 10px red;
+        border-radius: 50px 30px 50px 30px;
+        height: 300px;
+        width: 300px;
+      }
+
+      .mix_properties {
+        border-color: blue green yellow orange;
+      }
+    </style>
+  </head>
+
+  <body>
+    <picture>
+      <img src="images/dhol.png" class="b_properties" alt="dhol" />
+      <img src="images/dhol.png" class="dotted_properties" alt="dhol" />
+      <br />
+      <img src="images/dhol.png" class="mix_properties" alt="dhol" />
+    </picture>
+  </body>
+</html>
